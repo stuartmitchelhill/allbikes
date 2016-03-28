@@ -1,0 +1,26 @@
+/*
+Theme Name: allbikes
+Author: Allbikes
+Version: 1.0
+*/
+
+
+/*****************
+	Main CSS
+*****************/
+
+@import url('css/main.css');
+
+
+/*****************
+	Fonts CSS
+*****************/
+
+@import url('fonts/allbikes/fontello/css/allbikes.css');
+
+
+
+/*******************
+	Bootstrap CSS
+*******************/
+@import url('css/bootstrap/bootstrap.min.css');
