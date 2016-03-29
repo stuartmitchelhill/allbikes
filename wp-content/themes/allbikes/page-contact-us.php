@@ -4,7 +4,7 @@
 
 ?>
 
-<div class="content">
+<div class="container-fluid">
 	<div class="map" id="map"></div>
 	<div class="wrapper">
 		<h1 class="page-title">Contact Us</h1>

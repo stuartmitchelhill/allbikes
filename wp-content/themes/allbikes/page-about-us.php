@@ -4,7 +4,7 @@ get_header();
 
 ?>
 
-<div class="content">
+<div class="container-fluid">
 	<div class="banner"></div>
 	<div class="wrapper">
 		<h1 class="page-title">About Us</h1>

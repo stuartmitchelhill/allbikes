@@ -43,8 +43,8 @@
 			          </ul>
 			        </li>
 			        <li><a href="accessories">Accessories</a></li>
-			        <li><a href="accessories">Other Services</a></li>
-			        <li><a href="about">About Us</a></li>
+			        <li><a href="other-services">Other Services</a></li>
+			        <li><a href="about-us">About Us</a></li>
 			        <li><a href="contact-us">Contact Us</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
