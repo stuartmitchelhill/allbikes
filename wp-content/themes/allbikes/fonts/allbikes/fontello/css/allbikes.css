@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'allbikes';
-  src: url('../font/allbikes.eot?36416748');
-  src: url('../font/allbikes.eot?36416748#iefix') format('embedded-opentype'),
-       url('../font/allbikes.woff2?36416748') format('woff2'),
-       url('../font/allbikes.woff?36416748') format('woff'),
-       url('../font/allbikes.ttf?36416748') format('truetype'),
-       url('../font/allbikes.svg?36416748#allbikes') format('svg');
+  src: url('../font/allbikes.eot?63942274');
+  src: url('../font/allbikes.eot?63942274#iefix') format('embedded-opentype'),
+       url('../font/allbikes.woff2?63942274') format('woff2'),
+       url('../font/allbikes.woff?63942274') format('woff'),
+       url('../font/allbikes.ttf?63942274') format('truetype'),
+       url('../font/allbikes.svg?63942274#allbikes') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'allbikes';
-    src: url('../font/allbikes.svg?36416748#allbikes') format('svg');
+    src: url('../font/allbikes.svg?63942274#allbikes') format('svg');
   }
 }
 */
@@ -55,15 +55,16 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.ab-instagram:before { content: '\e800'; } /* '' */
-.ab-facebook-squared:before { content: '\e801'; } /* '' */
-.ab-left-open:before { content: '\e802'; } /* '' */
-.ab-right-open:before { content: '\e803'; } /* '' */
-.ab-cancel:before { content: '\e804'; } /* '' */
-.ab-menu:before { content: '\e805'; } /* '' */
-.ab-mail:before { content: '\e806'; } /* '' */
-.ab-location:before { content: '\e807'; } /* '' */
-.ab-phone:before { content: '\e808'; } /* '' */
-.ab-reply:before { content: '\e809'; } /* '' */
-.ab-logo:before { content: '\e80a'; } /* '' */
-.ab-twitter-squared:before { content: '\e80b'; } /* '' */
+.ab-left-open:before { content: '\e800'; } /* '' */
+.ab-right-open:before { content: '\e801'; } /* '' */
+.ab-cancel:before { content: '\e802'; } /* '' */
+.ab-menu:before { content: '\e803'; } /* '' */
+.ab-mail:before { content: '\e804'; } /* '' */
+.ab-location:before { content: '\e805'; } /* '' */
+.ab-phone:before { content: '\e806'; } /* '' */
+.ab-reply:before { content: '\e807'; } /* '' */
+.ab-instagram:before { content: '\e808'; } /* '' */
+.ab-facebook-squared:before { content: '\e809'; } /* '' */
+.ab-twitter-squared:before { content: '\e80a'; } /* '' */
+.ab-logo:before { content: '\e80b'; } /* '' */
+.ab-clock:before { content: '\e80c'; } /* '' */

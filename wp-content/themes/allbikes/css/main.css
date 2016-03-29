@@ -128,8 +128,6 @@ body {
 	FOOTER
 **************/
 footer {
-  position: absolute;
-  bottom: 0;
   overflow: hidden;
   width: 100%;
 }
@@ -193,7 +191,7 @@ footer .copyright {
   margin-top: 25px;
 }
 footer .copyright p {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
   color: #ffffff;
   font-size: 14px;
 }
@@ -204,10 +202,13 @@ footer .copyright p {
   background-image: url('../img/subpage-banner.png');
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 150px;
+  margin-top: -50px;
 }
 .wrapper {
   margin: 0 auto;
   width: 70%;
+  padding-bottom: 100px;
 }
 .page-title {
   text-align: center;
@@ -215,6 +216,13 @@ footer .copyright p {
   font-size: 22px;
   margin: 50px 0 65px 0;
   font-weight: 300;
+}
+.sub-heading {
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
 }
 /*********************************
 	Bootstrap Button Overides
@@ -226,6 +234,7 @@ footer .copyright p {
   padding: 6px 30px !important;
 }
 .btn-secondary {
+  text-transform: uppercase;
   border-color: #666666 !important;
   color: #666666 !important;
 }
@@ -238,6 +247,7 @@ footer .copyright p {
   color: #ffffff !important;
 }
 .btn-custom {
+  text-transform: uppercase;
   background-color: #333333;
   color: #ffffff;
 }
@@ -252,8 +262,58 @@ footer .copyright p {
 	About Us
 ***************/
 .action-buttons {
+  position: relative;
+  right: -70%;
+  margin: 5% 50px 0 0;
+}
+/****************
+	Contact
+****************/
+.map {
+  height: 200px;
+  width: 100%;
+  margin-top: -50px;
+}
+.contact-info {
+  border-right: 1px solid #979797;
+}
+.contact-info p {
+  margin-bottom: 35px !important;
+}
+.contact-info p span {
+  padding-left: 155px;
+}
+.contact-info p:last-child {
+  margin-bottom: 0 !important;
+}
+.contact-info p:nth-child(5) {
+  margin-bottom: 10px !important;
+}
+.contact-info p.shop-times {
+  padding-left: 155px;
+  margin-bottom: 10px !important;
+}
+.contact-info p.shop-times:first-child {
+  padding-left: 0 !important;
+}
+.contact-info i {
+  padding: 0 50px 0 75px;
+  font-size: 25px;
+}
+.contact-form {
+  padding-left: 75px !important;
+}
+.contact-form .form-control {
+  margin-bottom: 15px !important;
+  border-radius: 4px !important;
+}
+.contact-form .form-control.textarea {
+  resize: none;
+  height: 150px;
+}
+.contact-form a {
   float: right;
-  margin: 2% 50px 0 0;
+  margin-top: 15px;
 }
 @media (min-width: 768px) {
   .navbar-inverse {

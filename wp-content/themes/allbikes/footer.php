@@ -16,7 +16,7 @@
 					</ul>
 
 				</div>
-				<div class="newsletter col-md-4">
+				<div class="newsletter col-md-4 col-sm-4">
 					<h4>Subscribe To Our Newsletter</h4>
 					<p class="newsletter-blurb">
 						Join our mailing list to stay informed about new our bikes and gear!
@@ -31,9 +31,9 @@
 
 				<div class="social col-md-4">
 					<h4>Connect</h4>
-					<a href="#"><i class="ab-facebook-squared"></i></a>
-					<a href="#"><i class="ab-twitter-squared"></i></a>
-					<a href="#"><i class="ab-instagram"></i></a>
+					<a href="https://www.facebook.com/allbikesAustralia/" target="_blank"><i class="ab-facebook-squared"></i></a>
+					<a href="https://twitter.com/AllBikes_AU" target="_blank"><i class="ab-twitter-squared"></i></a>
+					<a href="https://www.instagram.com/allbikes_au/" target="_blank"><i class="ab-instagram"></i></a>
 				</div>
 			<div>
 		</div>

@@ -9,55 +9,73 @@
     {
       "uid": "wlri7uftq4zbi82q2xuf08ayd8kpijlk",
       "css": "left-open",
-      "code": 59394,
+      "code": 59392,
       "src": "typicons"
     },
     {
       "uid": "6zhrgcf3co77hnljttd3b2mrc8z5fiq5",
       "css": "right-open",
-      "code": 59395,
+      "code": 59393,
       "src": "typicons"
     },
     {
       "uid": "1dq4tek4k8ea7zlj4kc3w83itnutaxg5",
       "css": "cancel",
-      "code": 59396,
+      "code": 59394,
       "src": "typicons"
     },
     {
       "uid": "jh3jpcb1t1bcm80gidkadilh080aq79h",
       "css": "menu",
-      "code": 59397,
+      "code": 59395,
       "src": "typicons"
     },
     {
       "uid": "wg849ixsobykxshs6efpc6fk4m0fq8bh",
       "css": "mail",
-      "code": 59398,
+      "code": 59396,
       "src": "typicons"
     },
     {
       "uid": "gjt8ba5q0n3nn8ptw6324sflr8qoaeam",
       "css": "location",
-      "code": 59399,
+      "code": 59397,
       "src": "typicons"
     },
     {
       "uid": "24eiet6l58t0myywueih34b0e5a30bw1",
       "css": "phone",
-      "code": 59400,
+      "code": 59398,
       "src": "typicons"
     },
     {
       "uid": "28r0xthd180mg0wnfh8ek3mtn761hs11",
       "css": "reply",
-      "code": 59401,
+      "code": 59399,
       "src": "typicons"
+    },
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 59400,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4743b088aa95d6f3b6b990e770d3b647",
+      "css": "facebook-squared",
+      "code": 59401,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "906348dc798a0d42715cc97c875e3ac6",
+      "css": "twitter-squared",
+      "code": 59402,
+      "src": "fontawesome"
     },
     {
       "uid": "e7dd3563240928300e7bc1f82b32a3e7",
       "css": "logo",
-      "code": 59402,
+      "code": 59403,
       "src": "custom_icons",
       "selected": true,
       "svg": {
@@ -69,21 +87,9 @@
       ]
     },
     {
-      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
-      "css": "instagram",
-      "code": 59392,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "4743b088aa95d6f3b6b990e770d3b647",
-      "css": "facebook-squared",
-      "code": 59393,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "906348dc798a0d42715cc97c875e3ac6",
-      "css": "twitter-squared",
-      "code": 59403,
+      "uid": "598a5f2bcf3521d1615de8e1881ccd17",
+      "css": "clock",
+      "code": 59404,
       "src": "fontawesome"
     }
   ]
