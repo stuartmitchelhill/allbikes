@@ -110,6 +110,7 @@ footer {
 
 		h4 {
 			text-transform: uppercase;
+			font-weight: 700;
 		}
 
 		.site-map {
@@ -129,7 +130,7 @@ footer {
 				li {
 					padding: 2px 0;
 					a {
-						font-family: 'Open Sans', sans-serif;
+						font-family: 'Open Sans', sans-serif !important;
 						font-weight: 300;
 						font-size: 16px;
 						color: @white;
@@ -148,7 +149,7 @@ footer {
 		.newsletter {
 			.newsletter-blurb {
 				color: @white;
-				padding-bottom: 15px;
+				font-size: 16px;
 			}
 		}
 
@@ -198,12 +199,19 @@ footer {
 	padding-bottom: 100px;
 }
 
+.wrapper-wide {
+	margin: 0 auto;
+	width: 90%;
+	padding-bottom: 100px;
+}
+
 .page-title {
 	text-align: center;
 	color: @grey9;
 	font-size: 22px;
 	margin: 50px 0 65px 0; 
 	font-weight: 300;
+	font-family: 'Open Sans', sans-serif !important;
 
 	&:before {
 		content: " ";
@@ -231,6 +239,7 @@ footer {
 	text-align: center;
 	margin-bottom: 40px;
 	text-transform: uppercase;
+	font-size: 16px;
 }
 
 .container-fluid {
@@ -255,6 +264,7 @@ footer {
 	text-transform: uppercase;
 	border-color: @grey6 !important;
 	color: @grey6 !important;
+	font-weigth: 300;
 
 	&:hover {
 		background-color: @grey6 !important;
@@ -273,6 +283,7 @@ footer {
 	text-transform: uppercase;
 	background-color: @main_colour;
 	color: @white;
+	font-weight: 300;
 
 	&:hover {
 		background-color: lighten(@main_colour, 10%);
@@ -286,6 +297,61 @@ footer {
 
 }
 
+/*****************
+	Product
+*****************/
+.products {
+
+	.product {
+
+		.product-link {
+
+			&:hover {
+				text-decoration: none;
+			}
+
+
+
+			img {
+				display: block;
+				margin: 0 auto;
+			}
+
+			.product-title {
+				text-align: center;
+				 font-family: 'Oswald', sans-serif;
+				 font-weight: 700;
+				 font-size: 18px;
+				 color: @main_colour;
+
+				 &:before {
+					content: " ";
+					padding-right: 20px;
+					border-bottom: 3px solid @main_colour;
+					position: relative;
+					bottom: 12px;
+					right: 15px;
+				}
+
+				&:after {
+					content: " ";
+					padding-left: 20px;
+					border-bottom: 3px solid @main_colour;
+					position: relative;
+					bottom: 12px;
+					left: 15px;
+
+				}
+			}
+
+			.product-info {
+				font-size: 14px;
+				text-align: center;
+			}
+
+		}
+	}
+}
 
 /***************
 	About Us
@@ -369,8 +435,15 @@ footer {
 ***************************/
 
 .service {
-	margin-bottom: 75px;
+	margin: 75px 0;
 	.sub-heading {
 		text-align: left !important;
 	}
 }
+
+
+/****************************
+		  Bikes
+****************************/
+
+

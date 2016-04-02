@@ -1,5 +1,7 @@
 <?php
-
+/*
+   Template Name: Other Services
+*/
 	get_header();
 
 ?>
@@ -21,6 +23,7 @@
 				</div>
 			</div>
 		</div>
+		<hr>
 
 		<!-- Fairing -->
 		<div class="row">
@@ -34,6 +37,7 @@
 				</div>
 			</div>
 		</div>
+		<hr>
 
 		<!-- Paint Shop -->
 		<div class="row">
@@ -47,6 +51,7 @@
 				</div>
 			</div>
 		</div>
+		<hr>
 
 		<!-- Mechanic -->
 		<div class="row">
@@ -60,6 +65,7 @@
 				</div>
 			</div>
 		</div>
+		<hr>
 
 		<!-- Wrecking Yard -->
 		<div class="row">

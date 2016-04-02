@@ -31,13 +31,13 @@
 			        <li class="dropdown">
 			          <a href="gear" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-delay="400">Gear</a>
 			          <ul class="dropdown-menu">
-			            <li><a href="gear/helmets">Helmets</a></li>
+			            <li><a href="helmets">Helmets</a></li>
 			            <li role="separator" class="divider"></li>
-			            <li><a href="gear/jackets">Jackets</a></li>
+			            <li><a href="jackets">Jackets</a></li>
 			            <li role="separator" class="divider"></li>
-			            <li><a href="gear/jeans">Jeans</a></li>
+			            <li><a href="jeans">Jeans</a></li>
 			            <li role="separator" class="divider"></li>
-			            <li><a href="gear/gloves">Gloves</a></li>
+			            <li><a href="gloves">Gloves</a></li>
 			            <li role="separator" class="divider"></li>
 			            <li><a href="apparel">Apparel</a></li>
 			          </ul>

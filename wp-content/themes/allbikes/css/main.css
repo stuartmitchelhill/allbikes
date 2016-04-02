@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald:700,300);
 /* ==========================================================================
    Less StyleSheets
    ========================================================================== */
@@ -5,49 +6,49 @@
 	Fonts
 *************/
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
   font-weight: 700;
   font-size: 38px;
   margin: 10px 0 25px 0;
   color: #333333;
 }
 h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
   font-weight: 700;
   font-size: 30px;
   margin: 10px 0 25px 0;
   color: #333333;
 }
 h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
   font-weight: 700;
   font-size: 24px;
   margin: 10px 0 25px 0;
   color: #333333;
 }
 h4 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
   font-weight: 700;
   font-size: 18px;
   margin: 10px 0 25px 0;
   color: #333333;
 }
 h5 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
   font-weight: 700;
   font-size: 16px;
   margin: 10px 0 25px 0;
   color: #333333;
 }
 h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
   font-weight: 700;
   font-size: 14px;
   margin: 10px 0 25px 0;
   color: #333333;
 }
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   font-weight: 300;
   line-height: 160%;
   font-size: 19px;
@@ -55,7 +56,7 @@ p {
   margin-bottom: 15px !important;
 }
 a {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
   font-weight: 700;
   font-size: 16px;
   text-decoration: none;
@@ -138,6 +139,7 @@ footer .footer-info {
 }
 footer .footer-info h4 {
   text-transform: uppercase;
+  font-weight: 700;
 }
 footer .footer-info .site-map {
   padding-left: 75px;
@@ -157,7 +159,7 @@ footer .footer-info .site-map ul li {
   padding: 2px 0;
 }
 footer .footer-info .site-map ul li a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   font-weight: 300;
   font-size: 16px;
   color: #ffffff;
@@ -170,7 +172,7 @@ footer .footer-info .site-map ul li a:hover {
 }
 footer .footer-info .newsletter .newsletter-blurb {
   color: #ffffff;
-  padding-bottom: 15px;
+  font-size: 16px;
 }
 footer .footer-info .social {
   padding-left: 10%;
@@ -210,12 +212,18 @@ footer .copyright p {
   width: 70%;
   padding-bottom: 100px;
 }
+.wrapper-wide {
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 100px;
+}
 .page-title {
   text-align: center;
   color: #979797;
   font-size: 22px;
   margin: 50px 0 65px 0;
   font-weight: 300;
+  font-family: 'Open Sans', sans-serif !important;
 }
 .page-title:before {
   content: " ";
@@ -239,6 +247,7 @@ footer .copyright p {
   text-align: center;
   margin-bottom: 40px;
   text-transform: uppercase;
+  font-size: 16px;
 }
 .container-fluid {
   padding: 0 !important;
@@ -256,6 +265,7 @@ footer .copyright p {
   text-transform: uppercase;
   border-color: #666666 !important;
   color: #666666 !important;
+  font-weigth: 300;
 }
 .btn-secondary:hover {
   background-color: #666666 !important;
@@ -269,6 +279,7 @@ footer .copyright p {
   text-transform: uppercase;
   background-color: #333333;
   color: #ffffff;
+  font-weight: 300;
 }
 .btn-custom:hover {
   background-color: #4d4d4d;
@@ -276,6 +287,43 @@ footer .copyright p {
 }
 .btn-custom:active {
   color: #ffffff !important;
+}
+/*****************
+	Product
+*****************/
+.products .product .product-link:hover {
+  text-decoration: none;
+}
+.products .product .product-link img {
+  display: block;
+  margin: 0 auto;
+}
+.products .product .product-link .product-title {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+.products .product .product-link .product-title:before {
+  content: " ";
+  padding-right: 20px;
+  border-bottom: 3px solid #333333;
+  position: relative;
+  bottom: 12px;
+  right: 15px;
+}
+.products .product .product-link .product-title:after {
+  content: " ";
+  padding-left: 20px;
+  border-bottom: 3px solid #333333;
+  position: relative;
+  bottom: 12px;
+  left: 15px;
+}
+.products .product .product-link .product-info {
+  font-size: 14px;
+  text-align: center;
 }
 /***************
 	About Us
@@ -338,11 +386,14 @@ footer .copyright p {
 	   Other Services
 ***************************/
 .service {
-  margin-bottom: 75px;
+  margin: 75px 0;
 }
 .service .sub-heading {
   text-align: left !important;
 }
+/****************************
+		  Bikes
+****************************/
 @media (min-width: 768px) {
   .navbar-inverse {
     min-height: 80px !important;
