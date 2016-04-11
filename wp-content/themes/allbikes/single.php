@@ -11,17 +11,11 @@
 			<div class="col-md-12 item">
 				<div class="gallery col-md-8">
 					<?php if( have_rows('product_slider') ): ?>
- 
 	    				<ul class="bxslider">
-	 
 					    <?php while( have_rows('product_slider') ): the_row(); ?>
-					 
-					        <li><img src="<?php the_sub_field('image'); ?>"></li>
-					        
+					        <li><img src="<?php the_sub_field('image'); ?>"></li>  
 					    <?php endwhile; ?>
-					 
 					    </ul>
-					 
 					<?php endif; ?>
 				</div>
 				<div class="item-info col-md-4">
