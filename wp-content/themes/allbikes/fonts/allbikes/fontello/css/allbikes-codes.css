@@ -1,6 +1,4 @@
 
-.ab-left-open:before { content: '\e800'; } /* '' */
-.ab-right-open:before { content: '\e801'; } /* '' */
 .ab-cancel:before { content: '\e802'; } /* '' */
 .ab-menu:before { content: '\e803'; } /* '' */
 .ab-mail:before { content: '\e804'; } /* '' */
@@ -12,3 +10,9 @@
 .ab-twitter-squared:before { content: '\e80a'; } /* '' */
 .ab-logo:before { content: '\e80b'; } /* '' */
 .ab-clock:before { content: '\e80c'; } /* '' */
+.ab-check-empty:before { content: '\e80d'; } /* '' */
+.ab-ok-squared:before { content: '\e80e'; } /* '' */
+.ab-motorcycle:before { content: '\e80f'; } /* '' */
+.ab-minus-squared:before { content: '\e810'; } /* '' */
+.ab-left-open-big:before { content: '\e811'; } /* '' */
+.ab-right-open-big:before { content: '\e812'; } /* '' */

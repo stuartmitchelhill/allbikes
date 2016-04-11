@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'allbikes';
-  src: url('../font/allbikes.eot?63942274');
-  src: url('../font/allbikes.eot?63942274#iefix') format('embedded-opentype'),
-       url('../font/allbikes.woff2?63942274') format('woff2'),
-       url('../font/allbikes.woff?63942274') format('woff'),
-       url('../font/allbikes.ttf?63942274') format('truetype'),
-       url('../font/allbikes.svg?63942274#allbikes') format('svg');
+  src: url('../font/allbikes.eot?37945055');
+  src: url('../font/allbikes.eot?37945055#iefix') format('embedded-opentype'),
+       url('../font/allbikes.woff2?37945055') format('woff2'),
+       url('../font/allbikes.woff?37945055') format('woff'),
+       url('../font/allbikes.ttf?37945055') format('truetype'),
+       url('../font/allbikes.svg?37945055#allbikes') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'allbikes';
-    src: url('../font/allbikes.svg?63942274#allbikes') format('svg');
+    src: url('../font/allbikes.svg?37945055#allbikes') format('svg');
   }
 }
 */
@@ -55,8 +55,6 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.ab-left-open:before { content: '\e800'; } /* '' */
-.ab-right-open:before { content: '\e801'; } /* '' */
 .ab-cancel:before { content: '\e802'; } /* '' */
 .ab-menu:before { content: '\e803'; } /* '' */
 .ab-mail:before { content: '\e804'; } /* '' */
@@ -68,3 +66,9 @@
 .ab-twitter-squared:before { content: '\e80a'; } /* '' */
 .ab-logo:before { content: '\e80b'; } /* '' */
 .ab-clock:before { content: '\e80c'; } /* '' */
+.ab-check-empty:before { content: '\e80d'; } /* '' */
+.ab-ok-squared:before { content: '\e80e'; } /* '' */
+.ab-motorcycle:before { content: '\e80f'; } /* '' */
+.ab-minus-squared:before { content: '\e810'; } /* '' */
+.ab-left-open-big:before { content: '\e811'; } /* '' */
+.ab-right-open-big:before { content: '\e812'; } /* '' */

@@ -24,3 +24,8 @@ Version: 1.0
 	Bootstrap CSS
 *******************/
 @import url('css/bootstrap/bootstrap.min.css');
+
+/******************
+	BXSlider CSS
+******************/
+@import url('css/bxslider/jquery.bxslider.css');

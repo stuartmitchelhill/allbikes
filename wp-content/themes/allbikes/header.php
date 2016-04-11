@@ -29,7 +29,7 @@
 			      <ul class="nav navbar-nav navbar-right">
 			        <li><a href="bikes">Bikes</a></li>
 			        <li class="dropdown">
-			          <a href="gear" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-delay="400">Gear</a>
+			          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-delay="400">Gear <span class="caret"></span></a>
 			          <ul class="dropdown-menu">
 			            <li><a href="helmets">Helmets</a></li>
 			            <li role="separator" class="divider"></li>

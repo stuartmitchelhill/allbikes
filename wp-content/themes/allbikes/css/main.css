@@ -70,6 +70,7 @@ body {
   margin-top: 125px !important;
   padding: 0;
   box-sizing: border-box;
+  overflow: auto;
 }
 /***************
 	HEADER
@@ -109,8 +110,15 @@ body {
   font-size: 14px;
   text-transform: uppercase;
 }
+.navbar-inverse .navbar-right .dropdown .caret {
+  position: relative;
+  bottom: 2px;
+}
 .navbar-inverse .navbar-right .dropdown .dropdown-menu .divider {
   background-color: #979797 !important;
+}
+.navbar-inverse .navbar-right .dropdown .dropdown-menu li {
+  text-align: center;
 }
 .navbar-inverse .navbar-right .dropdown .dropdown-menu li a {
   font-family: 'Oswald', sans-serif;
@@ -131,6 +139,7 @@ body {
 footer {
   overflow: hidden;
   width: 100%;
+  margin-top: 100px;
 }
 footer .footer-info {
   background-color: #666666;
@@ -210,12 +219,10 @@ footer .copyright p {
 .wrapper {
   margin: 0 auto;
   width: 70%;
-  padding-bottom: 100px;
 }
 .wrapper-wide {
   margin: 0 auto;
   width: 90%;
-  padding-bottom: 100px;
 }
 .page-title {
   text-align: center;
@@ -251,6 +258,48 @@ footer .copyright p {
 }
 .container-fluid {
   padding: 0 !important;
+}
+.paging-navigation {
+  position: absolute;
+  bottom: -75px;
+  left: 50%;
+  margin-left: -75px;
+}
+.paging-navigation ul {
+  padding: 5px 10px;
+  list-style-type: none;
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+}
+.paging-navigation ul li {
+  display: inline;
+  padding: 0 5px;
+}
+.paging-navigation ul li a {
+  font-family: 'Open Sans', sans-serif !important;
+  color: #979797;
+  text-decoration: none;
+}
+.paging-navigation ul li a.prev:before {
+  font-family: 'allbikes';
+  content: '\e811';
+  font-size: 10px;
+  position: relative;
+  bottom: 2px;
+}
+.paging-navigation ul li a.next:after {
+  font-family: 'allbikes';
+  content: '\e812';
+  font-size: 10px;
+  position: relative;
+  bottom: 2px;
+}
+.paging-navigation ul li a:hover {
+  color: #333333;
+  transition: 0.4s;
+}
+.paging-navigation ul li .current {
+  font-size: 13px;
 }
 /*********************************
 	Bootstrap Button Overides
@@ -392,8 +441,199 @@ footer .copyright p {
   text-align: left !important;
 }
 /****************************
-		  Bikes
+		  Products
 ****************************/
+.filter {
+  width: 16.66666667%;
+  position: absolute;
+  left: 10px;
+}
+.filter .sidebar-heading {
+  font-weight: 700;
+  color: #979797;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+}
+.filter .sidebar {
+  list-style-type: none;
+  border-right: 1px solid #cccccc;
+  padding-left: 0 !important;
+}
+.filter .sidebar .list-break {
+  width: 70%;
+  border-top: 1px solid #cccccc !important;
+}
+.filter .sidebar li {
+  text-align: center;
+  padding: 10px;
+}
+.filter .sidebar li a {
+  color: #979797;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300;
+}
+.filter .sidebar li a:before {
+  font-family: 'allbikes';
+  content: '\e80d';
+  position: absolute;
+  left: 50px;
+}
+.filter .sidebar li a:hover {
+  color: #333333;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300;
+  transition: 0.4s;
+}
+.filter .sidebar li a:hover:before {
+  font-family: 'allbikes';
+  content: '\e810';
+  position: absolute;
+  left: 50px;
+}
+.filter .sidebar li a.active {
+  color: #333333;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300;
+  transition: 0.4s;
+}
+.filter .sidebar li a.active:before {
+  font-family: 'allbikes';
+  content: '\e80e';
+  position: absolute;
+  left: 50px;
+}
+.products .product.active {
+  display: block !important;
+}
+.products .product .overlay {
+  visibility: hidden;
+  transition: 0.4s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.products .product .overlay span {
+  display: none;
+}
+.products .product:hover .overlay {
+  visibility: visible;
+  transition: 0.4s;
+  position: absolute;
+  background-color: rgba(51, 51, 51, 0.7);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.products .product:hover .overlay span {
+  display: inline-block;
+  position: relative;
+  top: 125px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px 15px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300;
+}
+/***********************
+		Single
+***********************/
+.item .gallery {
+  margin-top: 50px;
+}
+.item .gallery img {
+  width: 100%;
+}
+.item .item-info .item-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: #333333;
+}
+.item .item-info .product-info {
+  display: inline-block;
+}
+.item .item-info .item-info-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+.item .item-info .item-info-list li {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 0;
+  margin-left: 225px;
+}
+.item .item-info .item-info-list span {
+  position: absolute;
+  left: 15px;
+  text-transform: uppercase;
+  float: left;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+.item .item-buttons .btn-large {
+  font-size: 16px;
+  padding: 10px 65px !important;
+}
+/************************
+	Slider
+************************/
+.slider {
+  margin-top: -50px;
+}
+.slider .bx-viewport .bx-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100% !important;
+  top: 0;
+  left: 0;
+  border: none !important;
+}
+.slider .bxslider {
+  margin: 0;
+  padding: 0;
+}
+.slider .bxslider li img {
+  width: 100%;
+}
+.mobile-banner {
+  display: none;
+}
+/* ============================================================
+  CUSTOM PAGINATION
+============================================================ */
+.custom-pagination span,
+.custom-pagination a {
+  display: inline-block;
+  padding: 2px 10px;
+}
+.custom-pagination a {
+  background-color: #ebebeb;
+  color: #ff3c50;
+}
+.custom-pagination a:hover {
+  background-color: #ff3c50;
+  color: #fff;
+}
+.custom-pagination span.page-num {
+  margin-right: 10px;
+  padding: 0;
+}
+.custom-pagination span.dots {
+  padding: 0;
+  color: gainsboro;
+}
+.custom-pagination span.current {
+  background-color: #ff3c50;
+  color: #fff;
+}
 @media (min-width: 768px) {
   .navbar-inverse {
     min-height: 80px !important;
@@ -432,10 +672,11 @@ footer .copyright p {
   .navbar-inverse .navbar-right .dropdown.open .dropdown-menu {
     display: block !important;
     position: absolute !important;
-    left: -40px !important;
+    left: -65px !important;
     background-color: #333 !important;
     margin-top: 40px !important;
     border-radius: 4px !important;
+    width: 200px;
   }
   .navbar-inverse .navbar-right .dropdown.open .dropdown-menu li a {
     font-family: 'Oswald', sans-serif;
@@ -443,7 +684,7 @@ footer .copyright p {
     text-transform: uppercase;
     font-size: 16px;
     color: #ffffff;
-    padding: 10px 35px;
+    padding: 8px 35px;
   }
   .navbar-inverse .navbar-right .dropdown.open .dropdown-menu li a:hover {
     background-color: #1a1a1a;
@@ -454,7 +695,7 @@ footer .copyright p {
     content: "";
     position: absolute;
     top: -10px;
-    left: 60px;
+    left: 80px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -464,10 +705,11 @@ footer .copyright p {
   .navbar-inverse .navbar-right .dropdown:hover .dropdown-menu {
     display: block !important;
     position: absolute !important;
-    left: -40px !important;
+    left: -65px !important;
     background-color: #333 !important;
     margin-top: 40px !important;
     border-radius: 4px !important;
+    width: 200px;
   }
   .navbar-inverse .navbar-right .dropdown:hover .dropdown-menu li a {
     font-family: 'Oswald', sans-serif;
@@ -475,7 +717,7 @@ footer .copyright p {
     text-transform: uppercase;
     font-size: 16px;
     color: #ffffff;
-    padding: 10px 35px;
+    padding: 8px 35px;
   }
   .navbar-inverse .navbar-right .dropdown:hover .dropdown-menu li a:hover {
     background-color: #1a1a1a;
@@ -486,11 +728,23 @@ footer .copyright p {
     content: "";
     position: absolute;
     top: -10px;
-    left: 60px;
+    left: 80px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 0 17.5px 15px 17.5px;
     border-color: transparent transparent #333333 transparent;
+  }
+}
+@media (max-width: 773px) {
+  .slider {
+    display: none;
+  }
+  .mobile-banner {
+    display: block;
+    margin-top: -68px;
+  }
+  .mobile-banner img {
+    width: 100%;
   }
 }
